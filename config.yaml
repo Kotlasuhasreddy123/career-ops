@@ -1,0 +1,72 @@
+﻿# Career-Ops Configuration for Suhas Reddy Kotla
+# AI/ML Internship Search - Summer/Fall 2026
+
+job_search:
+  titles:
+    - "Machine Learning Intern"
+    - "AI Engineer Intern"
+    - "Machine Learning Engineer Intern"
+    - "MLOps Intern"
+    - "Generative AI Intern"
+    - "AI Research Intern"
+    - "Data Science Intern"
+    - "Software Engineer Intern - ML"
+    - "Applied Scientist Intern"
+    
+  locations:
+    - "United States"
+    - "Remote"
+    - "San Francisco Bay Area"
+    - "New York"
+    - "Seattle"
+    - "Chicago"
+    - "Austin"
+    - "Boston"
+    
+  experience_levels:
+    - "Internship"
+    - "Entry level"
+    
+  job_types:
+    - "Internship"
+    - "Full-time"
+    
+  date_posted:
+    - "Past 24 hours"
+    - "Past Week"
+    
+  required_keywords:
+    - "machine learning"
+    - "AI"
+    - "python"
+    
+  preferred_keywords:
+    - "AWS"
+    - "PyTorch"
+    - "TensorFlow"
+    - "LLM"
+    - "generative AI"
+    - "MLOps"
+    
+  exclude_keywords:
+    - "PhD required"
+    - "5+ years"
+    - "senior"
+    
+  max_applications_per_day: 25
+
+linkedin:
+  email: "suhasreddykotla222@gmail.com"
+
+tracking:
+  method: "csv"
+  filename: "job_applications.csv"
+
+notifications:
+  email: "suhasreddykotla222@gmail.com"
+  notify_on_application: true
+  daily_summary: true
+
+schedule:
+  cron: "0 */6 * * 1-5"
+  timezone: "America/Chicago"
